@@ -1,0 +1,4 @@
+vizdoom
+boto3
+numpy
+pillow
