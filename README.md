@@ -5,7 +5,7 @@ Experience DOOM powered by Amazon Bedrock.
 ![Playing Doom powered by Amazon Bedrock](./bedrock_doom_cover.png)
 
 ## Introduction
-DOOM-Bedrock leverages the LevDoom benchmark, which offers various difficulty levels based on visual modifications. While LevDoom was originally designed for research in deep reinforcement learning generalization, our project takes a different approach. We harness the power of Amazon Bedrock to process screen data using multimodal Large Language Models (LLMs), determining the next actions in gameplay.
+DOOM-Bedrock leverages [VizDoom](https://github.com/Farama-Foundation/ViZDoom) and the [LevDoom](https://github.com/TTomilin/LevDoom) benchmark, which offers various difficulty levels based on visual modifications. While LevDoom was originally designed for research in deep reinforcement learning generalization, our project takes a different approach. We harness the power of Amazon Bedrock to process screen data using multimodal Large Language Models (LLMs), determining the next actions in gameplay.
 
 Our focus is on the `Seek and Slay` module, where the AI agent navigates the map to locate and engage enemies. This unique combination of classic gaming and cutting-edge AI showcases the potential of LLMs in complex, visual decision-making tasks.
 
@@ -91,9 +91,11 @@ Available environments:
 
 This project is built upon the [LevDoom](https://github.com/TTomilin/LevDoom) environment. We extend our gratitude to its creators:
 
+```bibtex
 @inproceedings{tomilin2022levdoom,
   title     = {LevDoom: A Benchmark for Generalization on Level Difficulty in Reinforcement Learning},
   author    = {Tristan Tomilin and Tianhong Dai and Meng Fang and Mykola Pechenizkiy},
   booktitle = {In Proceedings of the IEEE Conference on Games},
   year      = {2022}
 }
+```
